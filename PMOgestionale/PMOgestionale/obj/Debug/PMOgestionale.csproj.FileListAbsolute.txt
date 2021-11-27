@@ -1,0 +1,9 @@
+C:\Users\M15X\Desktop\pmo\bakup\PMOgestionale\PMOgestionale\obj\Debug\PMOgestionale.FormGestionale.resources
+C:\Users\M15X\Desktop\pmo\bakup\PMOgestionale\PMOgestionale\obj\Debug\PMOgestionale.Properties.Resources.resources
+C:\Users\M15X\Desktop\pmo\bakup\PMOgestionale\PMOgestionale\obj\Debug\PMOgestionale.csproj.GenerateResource.cache
+C:\Users\M15X\Desktop\pmo\bakup\PMOgestionale\PMOgestionale\obj\Debug\PMOgestionale.csproj.CoreCompileInputs.cache
+C:\Users\M15X\Desktop\pmo\bakup\PMOgestionale\PMOgestionale\bin\Debug\PMOgestionale.exe.config
+C:\Users\M15X\Desktop\pmo\bakup\PMOgestionale\PMOgestionale\bin\Debug\PMOgestionale.exe
+C:\Users\M15X\Desktop\pmo\bakup\PMOgestionale\PMOgestionale\bin\Debug\PMOgestionale.pdb
+C:\Users\M15X\Desktop\pmo\bakup\PMOgestionale\PMOgestionale\obj\Debug\PMOgestionale.exe
+C:\Users\M15X\Desktop\pmo\bakup\PMOgestionale\PMOgestionale\obj\Debug\PMOgestionale.pdb
