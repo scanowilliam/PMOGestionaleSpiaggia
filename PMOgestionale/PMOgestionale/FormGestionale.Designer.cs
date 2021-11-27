@@ -33,6 +33,8 @@
             this.btnSalva = new System.Windows.Forms.Button();
             this.dtDataGridView = new System.Windows.Forms.DataGridView();
             this.gbOperazioni = new System.Windows.Forms.GroupBox();
+            this.dtpFine = new PMOgestionale.CustomDTP();
+            this.dtpInizio = new PMOgestionale.CustomDTP();
             this.lblTelefono = new System.Windows.Forms.Label();
             this.btnElimina = new System.Windows.Forms.Button();
             this.txtTelefono = new System.Windows.Forms.TextBox();
@@ -44,8 +46,6 @@
             this.cmbOfferta = new System.Windows.Forms.ComboBox();
             this.lblOfferte = new System.Windows.Forms.Label();
             this.lblDataInizio = new System.Windows.Forms.Label();
-            this.dtpFine = new PMOgestionale.CustomDTP();
-            this.dtpInizio = new PMOgestionale.CustomDTP();
             ((System.ComponentModel.ISupportInitialize)(this.dtDataGridView)).BeginInit();
             this.gbOperazioni.SuspendLayout();
             this.SuspendLayout();
@@ -132,6 +132,34 @@
             this.gbOperazioni.TabStop = false;
             this.gbOperazioni.Text = "Operazioni";
             this.gbOperazioni.Enter += new System.EventHandler(this.gbOperazioni_Enter);
+            // 
+            // dtpFine
+            // 
+            this.dtpFine.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.dtpFine.BorderSize = 1;
+            this.dtpFine.CustomFormat = "dd/MM/yyyy";
+            this.dtpFine.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFine.Location = new System.Drawing.Point(217, 168);
+            this.dtpFine.MaxDate = new System.DateTime(2022, 12, 31, 0, 0, 0, 0);
+            this.dtpFine.Name = "dtpFine";
+            this.dtpFine.Size = new System.Drawing.Size(408, 22);
+            this.dtpFine.SkinColor = System.Drawing.Color.Black;
+            this.dtpFine.TabIndex = 24;
+            this.dtpFine.TextColor = System.Drawing.Color.WhiteSmoke;
+            // 
+            // dtpInizio
+            // 
+            this.dtpInizio.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.dtpInizio.BorderSize = 1;
+            this.dtpInizio.CustomFormat = "dd/MM/yyyy";
+            this.dtpInizio.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpInizio.Location = new System.Drawing.Point(217, 125);
+            this.dtpInizio.MaxDate = new System.DateTime(2022, 12, 31, 0, 0, 0, 0);
+            this.dtpInizio.Name = "dtpInizio";
+            this.dtpInizio.Size = new System.Drawing.Size(408, 22);
+            this.dtpInizio.SkinColor = System.Drawing.Color.Black;
+            this.dtpInizio.TabIndex = 23;
+            this.dtpInizio.TextColor = System.Drawing.Color.WhiteSmoke;
             // 
             // lblTelefono
             // 
@@ -258,32 +286,6 @@
             this.lblDataInizio.Size = new System.Drawing.Size(78, 17);
             this.lblDataInizio.TabIndex = 11;
             this.lblDataInizio.Text = "Data Inizio:";
-            // 
-            // dtpFine
-            // 
-            this.dtpFine.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.dtpFine.BorderSize = 1;
-            this.dtpFine.CustomFormat = "dd/MM/yyyy";
-            this.dtpFine.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpFine.Location = new System.Drawing.Point(217, 168);
-            this.dtpFine.Name = "dtpFine";
-            this.dtpFine.Size = new System.Drawing.Size(408, 22);
-            this.dtpFine.SkinColor = System.Drawing.Color.Black;
-            this.dtpFine.TabIndex = 24;
-            this.dtpFine.TextColor = System.Drawing.Color.WhiteSmoke;
-            // 
-            // dtpInizio
-            // 
-            this.dtpInizio.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.dtpInizio.BorderSize = 1;
-            this.dtpInizio.CustomFormat = "dd/MM/yyyy";
-            this.dtpInizio.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpInizio.Location = new System.Drawing.Point(217, 125);
-            this.dtpInizio.Name = "dtpInizio";
-            this.dtpInizio.Size = new System.Drawing.Size(408, 22);
-            this.dtpInizio.SkinColor = System.Drawing.Color.Black;
-            this.dtpInizio.TabIndex = 23;
-            this.dtpInizio.TextColor = System.Drawing.Color.WhiteSmoke;
             // 
             // FormGestionale
             // 

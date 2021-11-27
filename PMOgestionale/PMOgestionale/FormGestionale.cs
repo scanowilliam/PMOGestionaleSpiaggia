@@ -12,7 +12,7 @@ using System.Data.SqlClient;//libreria per utilizzare query sql
 using System.Configuration;
 using static PMOgestionale.Pattern;
 
-namespace PMOgestionale
+namespace PMOgestionale//main
 {
 
     public partial class FormGestionale : Form
@@ -197,6 +197,7 @@ namespace PMOgestionale
                     if (x.Data_inizio == ObsInizio && x.Data_fine == ObsFine)
                     {
                         ListaDattesa.notifyObservers(x);
+                        //ListaDattesa.unregisterObserver(x);
                     }
                 }
 
@@ -258,8 +259,7 @@ namespace PMOgestionale
         private void dtpInizio_ValueChanged(object sender, EventArgs e)
         {
             dtpInizio.MinDate = DateTime.Now;
-            dtpFine.MinDate = dtpInizio.Value;
-            //dtpInizio.MaxDate=
+            dtpFine.MinDate = dtpInizio.Value;        
         }
 
         private void dtDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)

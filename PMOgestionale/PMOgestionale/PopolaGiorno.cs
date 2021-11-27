@@ -12,7 +12,7 @@ namespace PMOgestionale
         public static void Popola_Giorni(SqlConnection con, SqlCommand cmd)//funzione per popolare la tabella Giorno
         {
             con.Open();
-            string dateInput = "Jan 1, 2021";//variabile per riempire di anno in anno
+            string dateInput = "Jan 1, 2022";//variabile per riempire di anno in anno
             var parsedDate = DateTime.Parse(dateInput);
             for (int i = 0; i < 365; i++)
             {
