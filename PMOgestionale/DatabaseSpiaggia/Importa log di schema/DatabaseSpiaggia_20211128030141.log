@@ -1,0 +1,84 @@
+28/11/2021 16:01:41	Questo log contiene informazioni sull'operazione di importazione dello schema nel progetto 'DatabaseSpiaggia' nel computer 'ALIENWARE-M15X' da parte dell'utente 'M15X'.
+28/11/2021 16:01:42	Importazione schema del database avviata.
+28/11/2021 16:02:02	Raccolta delle credenziali del database
+28/11/2021 16:02:02	Raccolta delle opzioni database
+28/11/2021 16:02:02	Raccolta degli utenti
+28/11/2021 16:02:02	Raccolta dei ruoli
+28/11/2021 16:02:02	Raccolta dei ruoli applicazione
+28/11/2021 16:02:02	Raccolta delle appartenenze a ruoli
+28/11/2021 16:02:02	Raccolta dei filegroup
+28/11/2021 16:02:02	Raccolta dei cataloghi full-text
+28/11/2021 16:02:02	Raccolta degli assembly
+28/11/2021 16:02:02	Raccolta dei certificati
+28/11/2021 16:02:02	Raccolta delle chiavi asimmetriche
+28/11/2021 16:02:02	Raccolta delle chiavi simmetriche
+28/11/2021 16:02:02	Raccolta delle chiavi simmetriche crittografate
+28/11/2021 16:02:02	Raccolta degli schemi
+28/11/2021 16:02:02	Raccolta delle raccolte XML Schema
+28/11/2021 16:02:02	Raccolta dei tipi di dati definiti dall'utente
+28/11/2021 16:02:02	Raccolta dei tipi definiti dall'utente (UDT)
+28/11/2021 16:02:02	Raccolta dei tipi di tabella
+28/11/2021 16:02:02	Raccolta di chiavi univoche per i tipi di tabella
+28/11/2021 16:02:02	Raccolta delle chiavi primarie per i tipi di tabella
+28/11/2021 16:02:02	Raccolta degli indici per i tipi di tabella
+28/11/2021 16:02:02	Raccolta dei vincoli CHECK per i tipi di tabella
+28/11/2021 16:02:02	Raccolta dei vincoli predefiniti per i tipi di tabella
+28/11/2021 16:02:02	Raccolta delle funzioni di partizione
+28/11/2021 16:02:02	Raccolta degli schemi di partizione
+28/11/2021 16:02:02	Raccolta delle funzioni
+28/11/2021 16:02:02	Raccolta di funzioni crittografate
+28/11/2021 16:02:02	Raccolta delle aggregazioni
+28/11/2021 16:02:02	Raccolta delle procedure
+28/11/2021 16:02:02	Raccolta di procedure crittografate
+28/11/2021 16:02:02	Raccolta delle tabelle
+28/11/2021 16:02:02	Raccolta delle chiavi primarie
+28/11/2021 16:02:03	Raccolta dei vincoli univoci
+28/11/2021 16:02:03	Raccolta delle chiavi esterne
+28/11/2021 16:02:03	Raccolta dei vincoli predefiniti
+28/11/2021 16:02:03	Raccolta dei vincoli CHECK
+28/11/2021 16:02:03	Raccolta delle viste
+28/11/2021 16:02:03	Raccolta di viste crittografate
+28/11/2021 16:02:03	Raccolta degli indici
+28/11/2021 16:02:03	Raccolta delle statistiche
+28/11/2021 16:02:03	Raccolta degli elenchi di parole non significative degli indici full-text
+28/11/2021 16:02:03	Raccolta degli elenchi delle proprietà di ricerca
+28/11/2021 16:02:03	Raccolta delle proprietà di ricerca
+28/11/2021 16:02:03	Raccolta degli indici full-text
+28/11/2021 16:02:03	Raccolta degli indici dell'archivio colonne
+28/11/2021 16:02:03	Raccolta degli indici spaziali
+28/11/2021 16:02:03	Raccolta degli indici XML
+28/11/2021 16:02:03	Raccolta di indici XML selettivi
+28/11/2021 16:02:03	Raccolta di trigger crittografati
+28/11/2021 16:02:03	Raccolta dei trigger
+28/11/2021 16:02:03	Raccolta dei trigger ddl clr e crittografati
+28/11/2021 16:02:03	Raccolta dei trigger ddl
+28/11/2021 16:02:03	Raccolta dei sinonimi
+28/11/2021 16:02:03	Raccolta delle impostazioni predefinite
+28/11/2021 16:02:03	Raccolta delle associazioni di tipi di dati definiti dall'utente con vincoli dati
+28/11/2021 16:02:03	Raccolta delle regole
+28/11/2021 16:02:03	Raccolta delle associazioni di tipi di dati definiti dall'utente con vincoli dati
+28/11/2021 16:02:03	Raccolta dei tipi di messaggio
+28/11/2021 16:02:03	Raccolta delle code
+28/11/2021 16:02:03	Raccolta dei contratti
+28/11/2021 16:02:03	Raccolta dei servizi
+28/11/2021 16:02:03	Raccolta delle notifiche degli eventi
+28/11/2021 16:02:03	Raccolta delle associazioni a servizi remoti
+28/11/2021 16:02:03	Raccolta delle priorità Service Broker
+28/11/2021 16:02:03	Raccolta delle firme
+28/11/2021 16:02:03	Raccolta delle opzioni di compressione dati
+28/11/2021 16:02:03	Raccolta dei tipi di sequenza
+28/11/2021 16:02:03	Raccolta dei criteri di sicurezza
+28/11/2021 16:02:03	Raccogli le chiavi di crittografia della colonna
+28/11/2021 16:02:03	Raccolta delle chiavi master della colonna
+28/11/2021 16:02:03	Raccolta di origini dati esterne
+28/11/2021 16:02:03	Raccolta di formati di file esterni
+28/11/2021 16:02:03	Raccolta di tabelle esterne
+28/11/2021 16:02:03	Raccolta delle proprietà estese
+28/11/2021 16:02:03	Raccolta delle credenziali
+28/11/2021 16:02:03	Raccolta degli accessi
+28/11/2021 16:02:03	Raccolta dei controlli server
+28/11/2021 16:02:05	Ricerca di elementi duplicati nel progetto
+28/11/2021 16:02:05	Elaborazione degli elementi duplicati completata
+28/11/2021 16:02:06	Importazione database terminata.
+28/11/2021 16:02:06	Un riepilogo dell'operazione di importazione è stato salvato nel percorso seguente: C:\Users\M15X\Documents\GitHub\PMOGestionaleSpiaggia\PMOgestionale\DatabaseSpiaggia\Importa log di schema\DatabaseSpiaggia_20211128030141.log
+28/11/2021 16:02:06	Fare clic su Fine per continuare...

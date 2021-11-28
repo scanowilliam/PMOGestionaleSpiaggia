@@ -18,12 +18,12 @@ namespace PMOgestionale//main
     public partial class FormGestionale : Form
     {
         //connessione al database con stringa
-        string path = @"Data Source=ALIENWARE-M15X\SQLEXPRESS;Initial Catalog=registration;Integrated Security=True";//server e nome database
+        string path = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=registration;Integrated Security=True";//server e nome database
 
         int ID;//variabile per poter selezionare la riga da eliminare
         int lettino;
         int ombrellone;
-        Subject ListaDattesa = new Subject();//lista per Observer
+        ProductSubject ListaDattesa = new ProductSubject();//lista per Observer
 
         Cliente cliente;
         SqlConnection con;//oggetto per la chiamata alla connessione
@@ -41,7 +41,7 @@ namespace PMOgestionale//main
 
 
             //richiama la funzione che popola la tabella giorno
-            //PopolaGiorno.Popola_Giorni(con,cmd);
+            PopolaGiorno.Popola_Giorni(con,cmd);
 
 
             //lettura numero lettini, ombrelloni

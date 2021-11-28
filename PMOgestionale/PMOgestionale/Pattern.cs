@@ -17,7 +17,7 @@ namespace PMOgestionale
 
         }
         //concrete subject, implementa i membri e collega/scollega gli observer
-        public class Subject : ISubject
+        public class ProductSubject : ISubject
         {
             private List<ClienteInAttesa> observers = new List<ClienteInAttesa>();
 
@@ -34,11 +34,12 @@ namespace PMOgestionale
             }
             public void notifyObservers(ClienteInAttesa observer)//notifica al gestore gli utenti che erano in attesa nella data liberata
             {
-                MessageBox.Show("la prenotazione in data " + observer.Data_inizio.ToShortDateString() + " a " + observer.Data_fine.ToShortDateString() + " è ora disponibile, affrettati!, contatta " + observer.Nome + " " + observer.Cognome + " al " + observer.Telefono + " ");
+                observer.Notifica(observer);
             }
         }
         public interface IObserver
         {
+            void Notifica(ClienteInAttesa observer);
 
         }
         /// <summary>
@@ -77,7 +78,11 @@ namespace PMOgestionale
                 prezzo = c.Prezzo;
                 telefono = c.Telefono;
             }
-          
+            public void Notifica(ClienteInAttesa observer)
+            {
+                MessageBox.Show("la prenotazione in data " + observer.Data_inizio.ToShortDateString() + " a " + observer.Data_fine.ToShortDateString() + " è ora disponibile, affrettati!, contatta " + observer.Nome + " " + observer.Cognome + " al " + observer.Telefono + " ");
+
+            }
         }
         /// <summary> pattern factory
 
